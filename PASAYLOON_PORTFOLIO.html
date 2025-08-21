@@ -225,24 +225,24 @@
                 width: 100%;
             }
         }
-    </style>
+</style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="profile">
-                <img src="Ponex.jpg" alt="Portrait photo of Sherjay Pasayloon, a 2nd year college student with short black hair and glasses, wearing a university shirt" class="profile-pic">
-                <h1>Sherjay Pasayloon</h1>
-                <p class="tagline">University Student | BSIT</p>
-            </div>
-        </div>
-    </header>
+<header>
+<div class="container">
+<div class="profile">
+<img src="Ponex.jpg" alt="Portrait photo of Sherjay Pasayloon, a 2nd year college student with short black hair and glasses, wearing a university shirt" class="profile-pic">
+<h1>Sherjay Pasayloon</h1>
+<p class="tagline">University Student | BSIT</p>
+</div>
+</div>
+</header>
     
-    <main class="container">
+        <main class="container">
         <section id="about">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
+        <h2>About Me</h2>
+        <div class="about-content">
+        <div class="about-text">
                     <p>
                         Hello! I'm Sherjay Pasayloon, currently pursuing my undergraduate studies at the University of Mindanao. 
                         As a 2nd year student for the academic year 2025-2026, I'm developing my skills and knowledge to prepare for 
@@ -253,99 +253,99 @@
                         Outside of school, I enjoy researching new topics, collaborating with peers, 
                         and engaging in extracurricular activities that help me develop well-rounded skills.
                     </p>
-                </div>
-            </div>
+        </div>
+        </div>
         </section>
         
         <section id="education">
-            <h2>Education</h2>
-            <div class="education-content">
-                <div class="education-details">
-                    <div class="education-card">
-                        <div class="edu-year">
-                            <span class="year">2025-2026</span>
-                            <span>Present</span>
-                        </div>
-                        <div class="edu-detail">
+        <h2>Education</h2>
+        <div class="education-content">
+        <div class="education-details">
+        <div class="education-card">
+        <div class="edu-year">
+        <span class="year">2025-2026</span>
+        <span>Present</span>
+        </div>
+        <div class="edu-detail">
                             <h3>University of Mindanao</h3>
                             <p>Second Year Undergraduate Student</p>
                             <p>Currently pursuing my degree with focus on academic excellence and skill development.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
+        </div>
+        </div>
+        </div>
         </section>
         
         <section id="skills">
-            <h2>Skills & Abilities</h2>
-            <div class="skills-container">
-                <div class="skill-card">
-                    <div class="skill-name">Academic Research</div>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 85%"></div>
+        <h2>Skills & Abilities</h2>
+        <div class="skills-container">
+        <div class="skill-card">
+        <div class="skill-name">Academic Research</div>
+        <div class="skill-bar">
+        <div class="skill-level" style="width: 85%"></div>
                     </div>
                     <p>Capable of conducting thorough research and synthesizing information.</p>
-                </div>
+                    </div>
                 
-                <div class="skill-card">
-                    <div class="skill-name">Team Collaboration</div>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 90%"></div>
+        <div class="skill-card">
+        <div class="skill-name">Team Collaboration</div>
+        <div class="skill-bar">
+        <div class="skill-level" style="width: 90%"></div>
                     </div>
                     <p>Effective at working in groups and contributing to team success.</p>
-                </div>
+                    </div>
                 
-                <div class="skill-card">
-                    <div class="skill-name">Time Management</div>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 80%"></div>
+        <div class="skill-card">
+        <div class="skill-name">Time Management</div>
+        <div class="skill-bar">
+        <div class="skill-level" style="width: 80%"></div>
                     </div>
                     <p>Skilled at prioritizing tasks and meeting deadlines effectively.</p>
-                </div>
+                    </div>
                 
-                <div class="skill-card">
-                    <div class="skill-name">Problem Solving</div>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 75%"></div>
+        <div class="skill-card">
+        <div class="skill-name">Problem Solving</div>
+        <div class="skill-bar">
+        <div class="skill-level" style="width: 75%"></div>
                     </div>
                     <p>Analytical thinker capable of developing practical solutions.</p>
-                </div>
-            </div>
+                    </div>
+                    </div>
         </section>
-    </main>
+        </main>
     
-    <footer>
+        <footer>
         <div class="container">
-            <p>© 2025 Sherjay Pasayloon. All rights reserved.😗</p>
-            <div class="social-links">
+        <p>© 2025 Sherjay Pasayloon. All rights reserved.😗</p>
+        <div class="social-links">
                 <a href="#" class="social-icon">Pon54</a>
                 <a href="#" class="social-icon">github.com/Pon54</a>
                 <a href="#" class="social-icon">s.pasayloon.543548@umindanao.edu.ph</a>
-            </div>
         </div>
-    </footer>
+        </div>
+        </footer>
     
-    <script>
-        // Simple animation for skill bars on scroll
-        document.addEventListener('DOMContentLoaded', function() {
+        <script>
+        
+            document.addEventListener('DOMContentLoaded', function() {
             const skillCards = document.querySelectorAll('.skill-card');
             
             const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
+                    entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         const skillLevel = entry.target.querySelector('.skill-level');
                         const width = skillLevel.style.width;
                         skillLevel.style.width = '0';
                         setTimeout(() => {
                             skillLevel.style.width = width;
-                        }, 100);
-                    }
-                });
-            }, {threshold: 0.5});
+        }, 100);
+        }
+        });
+        }, {threshold: 0.5});
             
-            skillCards.forEach(card => {
-                observer.observe(card);
-            });
+        skillCards.forEach(card => {
+        observer.observe(card);
+        });
         });
     </script>
 </body>
